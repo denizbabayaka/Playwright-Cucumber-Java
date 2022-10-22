@@ -65,8 +65,26 @@ public class LoginCucumberTest {
 	
 	
 	
+//
+//io.cucumber.junit.UndefinedStepException: The step "User logged in the app using username “standard_user” and password “secret_sauce”" is undefined. You can implement it using the snippet(s) below:
+//
+//@When("User logged in the app using username “standard_user” and password “secret_sauce”")
+//public void user_logged_in_the_app_using_username_standard_user_and_password_secret_sauce() {
+//    // Write code here that turns the phrase above into concrete actions
+//    throw new io.cucumber.java.PendingException();
+//}
+//
+//
+//Some other steps were also undefined:
+//
+//@Then("User verify the product name “Sauce Labs Backpack”")
+//public void user_verify_the_product_name_sauce_labs_backpack() {
+//    // Write code here that turns the phrase above into concrete actions
+//    throw new io.cucumber.java.PendingException();
+//}
 
-	
+
+
 	
 	
 	

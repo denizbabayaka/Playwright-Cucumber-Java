@@ -10,6 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		@CucumberOptions(
 		features = "src/test/java/features/",
 		glue = {"stepdefinitions"},
+	    dryRun=false,
 		plugin = {"pretty"})
 		
 		public class SauceDemoTestRunner{
