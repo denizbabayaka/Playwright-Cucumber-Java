@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-22T17:22:30.232Z",
+        "line": 12,
+        "name": "Login to SwagLabs Application with Correct credentials",
+        "description": "",
+        "id": "login;login-to-swaglabs-application-with-correct-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8357908300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launched SwagLabs application",
+            "match": {
+              "location": "stepdefinitions.LoginCucumberTest.setUp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18949100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User verify the Page title",
+            "match": {
+              "location": "stepdefinitions.LoginCucumberTest.verifyPageTitle()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 426851100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logged in the app using username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 67
+                }
+              ],
+              "location": "stepdefinitions.LoginCucumberTest.loginIntoTheApplication(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119680000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify the product name \"Sauce Labs Backpack\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.LoginCucumberTest.verifyProductsName(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 662819200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User logout from the application",
+            "match": {
+              "location": "stepdefinitions.LoginCucumberTest.logoutFromApplication()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LoginAndHomeTest.feature",
+    "tags": []
+  }
+]
