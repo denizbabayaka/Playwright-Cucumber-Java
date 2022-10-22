@@ -11,7 +11,12 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/java/features/",
 		glue = {"stepdefinitions"},
 	    dryRun=false,
-		plugin = {"pretty"})
+	    plugin = {"pretty", "junit:target/JunitReports/report.xm1",
+	    		   "json:target/JReports/report.json",
+	    		    "html:target/HtmlReports"}
+	    		         )
+	    		
+
 		
 		public class SauceDemoTestRunner{
         	
