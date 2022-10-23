@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-10-22T17:22:30.232Z",
+        "start_timestamp": "2022-10-23T01:29:24.404Z",
         "line": 12,
         "name": "Login to SwagLabs Application with Correct credentials",
         "description": "",
@@ -13,33 +13,86 @@
         "steps": [
           {
             "result": {
-              "duration": 8357908300,
+              "duration": 481707800,
               "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 8342761000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginCucumberTest.beforeSteps()"
+                }
+              }
+            ],
             "line": 4,
             "name": "User launched SwagLabs application",
             "match": {
               "location": "stepdefinitions.LoginCucumberTest.setUp()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 2991700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginCucumberTest.afterSteps()"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 18949100,
+              "duration": 18946100,
               "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 994200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginCucumberTest.beforeSteps()"
+                }
+              }
+            ],
             "line": 5,
             "name": "User verify the Page title",
             "match": {
               "location": "stepdefinitions.LoginCucumberTest.verifyPageTitle()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginCucumberTest.afterSteps()"
+                }
+              }
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 426851100,
+              "duration": 411899200,
               "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginCucumberTest.beforeSteps()"
+                }
+              }
+            ],
             "line": 6,
             "name": "User logged in the app using username \"standard_user\" and password \"secret_sauce\"",
             "match": {
@@ -55,13 +108,33 @@
               ],
               "location": "stepdefinitions.LoginCucumberTest.loginIntoTheApplication(java.lang.String,java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginCucumberTest.afterSteps()"
+                }
+              }
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 119680000,
+              "duration": 87764200,
               "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginCucumberTest.beforeSteps()"
+                }
+              }
+            ],
             "line": 7,
             "name": "User verify the product name \"Sauce Labs Backpack\"",
             "match": {
@@ -73,18 +146,49 @@
               ],
               "location": "stepdefinitions.LoginCucumberTest.verifyProductsName(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginCucumberTest.afterSteps()"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 662819200,
+              "duration": 677203500,
               "status": "passed"
             },
+            "before": [
+              {
+                "result": {
+                  "duration": 998100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginCucumberTest.beforeSteps()"
+                }
+              }
+            ],
             "line": 8,
             "name": "User logout from the application",
             "match": {
               "location": "stepdefinitions.LoginCucumberTest.logoutFromApplication()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginCucumberTest.afterSteps()"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ]

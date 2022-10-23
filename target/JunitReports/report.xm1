@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.799">
-    <testcase classname="Login" name="Login to SwagLabs Application with Correct credentials" time="9.651">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.259">
+    <testcase classname="Login" name="Login to SwagLabs Application with Correct credentials" time="10.103">
         <system-out><![CDATA[Given User launched SwagLabs application....................................passed
 When User verify the Page title.............................................passed
 When User logged in the app using username "standard_user" and password "secret_sauce".passed

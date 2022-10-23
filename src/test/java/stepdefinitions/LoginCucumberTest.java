@@ -12,6 +12,8 @@ import com.microsoft.playwright.Playwright;
 import com.saucedemo.pages.HomePage;
 import com.saucedemo.pages.LoginPage;
 
+import io.cucumber.java.AfterStep;
+import io.cucumber.java.BeforeStep;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -24,6 +26,27 @@ public class LoginCucumberTest {
 	BrowserType firefox = playwright.firefox();
 	Browser browser = firefox.launch(new BrowserType.LaunchOptions().setHeadless(false));
 	Page page = browser.newPage();
+	
+	
+	/*
+	 * BeforeStep and AfterStep is different then Before and After it will  executes before and after of 
+	 * every step of the feature file 
+	 */
+	@BeforeStep
+	public void beforeSteps() {
+	System.out.println(" I am inside beforeSteps ----");
+	}
+
+	@AfterStep
+	public void afterSteps() {
+
+	System.out.println(" I am inside asfterSteps ====");
+	}
+
+	 
+
+	 
+	
 
 	
 	@Given("User launched SwagLabs application")
