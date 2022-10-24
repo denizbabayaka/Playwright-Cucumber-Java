@@ -22,7 +22,12 @@ public class LoginCucumberTest {
 
 	LoginPage login;
 	HomePage home;
+	
+	//we have to start playwright server create method will return implementation of playwright
 	Playwright playwright = Playwright.create();
+	
+	//This will give you the option which browser you would launch 
+	//Browser browser=playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
 	BrowserType firefox = playwright.firefox();
 	Browser browser = firefox.launch(new BrowserType.LaunchOptions().setHeadless(false));
 	Page page = browser.newPage();
