@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-10-23T01:29:24.404Z",
+        "start_timestamp": "2022-10-23T21:49:18.366Z",
         "line": 12,
         "name": "Login to SwagLabs Application with Correct credentials",
         "description": "",
@@ -13,13 +13,13 @@
         "steps": [
           {
             "result": {
-              "duration": 481707800,
+              "duration": 992055700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 8342761000,
+                  "duration": 8601594100,
                   "status": "passed"
                 },
                 "match": {
@@ -35,7 +35,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 2991700,
+                  "duration": 1993200,
                   "status": "passed"
                 },
                 "match": {
@@ -47,13 +47,12 @@
           },
           {
             "result": {
-              "duration": 18946100,
+              "duration": 63828300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 994200,
                   "status": "passed"
                 },
                 "match": {
@@ -80,12 +79,13 @@
           },
           {
             "result": {
-              "duration": 411899200,
+              "duration": 609364400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 997900,
                   "status": "passed"
                 },
                 "match": {
@@ -122,12 +122,13 @@
           },
           {
             "result": {
-              "duration": 87764200,
+              "duration": 122671400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1003200,
                   "status": "passed"
                 },
                 "match": {
@@ -149,6 +150,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000900,
                   "status": "passed"
                 },
                 "match": {
@@ -160,13 +162,12 @@
           },
           {
             "result": {
-              "duration": 677203500,
+              "duration": 720957300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 998100,
                   "status": "passed"
                 },
                 "match": {
